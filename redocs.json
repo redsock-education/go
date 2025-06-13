@@ -8,20 +8,29 @@
       "link": "/Golang.md"
     },
     {
-      "name": "Memory",
-      "link": "/memory",
+      "name": "Essentials",
       "inner": [
         {
+          "name": "Functions",
+          "link": "/func/readme.md"
+        },
+        {
           "name": "Memory",
-          "link": "/readme.md"
-        },
-        {
-          "name": "Stack",
-          "link": "/stack.md"
-        },
-        {
-          "name": "Heap",
-          "link": "/heap.md"
+          "link": "/mem",
+          "inner": [
+            {
+              "name": "Memory",
+              "link": "/readme.md"
+            },
+            {
+              "name": "Stack",
+              "link": "/stack.md"
+            },
+            {
+              "name": "Heap",
+              "link": "/heap.md"
+            }
+          ]
         }
       ]
     }
